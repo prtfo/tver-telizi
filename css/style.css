@@ -240,9 +240,13 @@ body {
 
 /*==ТЕЛО Каталога==*/
 
-
+.body-shop__info p {
+  text-align: center;
+  font-size: 30px;
+}
 .body-shop__info span{
-  padding: 10px;
+  display: inline-block;
+  padding: 20px;
   text-shadow: 1px 1px 1px #000;
   word-spacing: 10px;
   line-height: 30px;
@@ -334,6 +338,14 @@ body {
     left: 50px;
     top: 10px;
   }
+  .body-shop__info p {
+  text-align: center;
+  font-size: 30px;
+}
+.body-shop__info span{
+  padding: 0px;
+  word-spacing: 3px;
+}
 }
 @media (max-width: 416px) {
   .foot__logo{
