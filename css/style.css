@@ -113,7 +113,6 @@ body {
 .foot__btn:hover{
   box-shadow: 5px 5px 7px;
 }
-
 /*==ТЕЛО ГЛ СТРАНИЦЫ==*/
 .body{
   background-color: #c3c9c8;
@@ -186,6 +185,9 @@ body {
   color: #94151d;
 }
 /*==ТЕЛО Контакты==*/
+.body-contacs__contacs {
+
+}
 .body-contacs {
   background-color: #c3c9c8;
   margin: 20px 20px 0 10px;
@@ -208,7 +210,7 @@ body {
 }
 .body-contacs__phone {
   background-color: #6da9ed;
-  margin: 0 auto;
+  margin: 0 350px;
   width: 350px;
   text-align: center;
   border-radius: 10px;
@@ -235,8 +237,6 @@ body {
   text-align: center;
   font-weight: 700;
 }
-
-
 .body-shop__info span{
   padding: 10px;
   text-shadow: 1px 1px 1px #000;
@@ -288,77 +288,29 @@ body {
   color: #e0abed; 
 }
 
-
-.sizes__box-flex{
-  display: flex;
-  justify-content: space-evenly;
-}
-.sizes h2{
-  font-size: 40px;
+.body-shop__size {
+  font-size: 30px;
+  margin: 20px;
   text-align: center;
+  padding: 20px;
 }
-.flex-box{
-  font-size: 18px;
-  line-height: 35px;
-  padding: 30px 20px;
+.body-shop__size-desc{
+  padding: 20px;
 }
-.name{
-  border-bottom: 1px solid #000;
-  display: block;
-  font-size: 20px;
-  text-align: center;
+.body-shop__size-desc h2 {
+  font-size: 50px;
+  padding: 0 0 30px;
 }
-
-
-@media(max-width: 712px){
-  .foot{
-    height: 200px;
-  }
-  .foot a{
-    margin: 115px 6px;
-  }
-  .foot__nav{
-    flex-direction:row;
-  }
+.body-shop__size-desc span{
+  padding: 50px;
+  margin: 50px;
 }
-@media (max-width: 855px){
-  .body-shop__info p{
-    font-size: 30px;
-  }
-
-  .body-shop__info{
-    font-size: 22px;
-  }
-  .name {
-    font-size: 27px;
-  }
-
+.body-shop__table {
 }
-
-
-@media(max-width: 1006px){
-  .body-shop__size {
-    padding: 0;
-  }
+.body-shop__list span{
+  padding: 0 100px 0;
+  text-align: left;
 }
-
-
-@media (max-width: 375px){
-  .body__job{
-    font-size: 26px;
-    line-height: 54px;
-  }
-
-  .body-list li::first-letter {
-    font-size: 51px;
-  }
-  .body__hello {
-    font-size: 43px;
-  }
-  .body__info{
-    font-size: 25px;
-  }
-  .body__par1 {
-    font-size: 49px;
-  }
-} 
+.body-shop__list{
+  margin: 20px 0 0;
+}
