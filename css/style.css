@@ -308,6 +308,11 @@ body {
   font-size: 20px;
   text-align: center;
 }
+@media(max-width: 438px){
+  .sizes__box-flex{
+    display: block;
+  }
+}
 
 @media (max-width: 844px) {
   .foot__logo{
