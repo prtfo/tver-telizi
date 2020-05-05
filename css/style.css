@@ -117,7 +117,7 @@ body {
 /*==ТЕЛО ГЛ СТРАНИЦЫ==*/
 .body{
   background-color: #c3c9c8;
-  margin: 20px 20px 0 10px;
+  margin: 20px 20px 20px   10px;
   width: 100%;
   min-height: 100%;
   border-radius: 20px;
@@ -186,6 +186,38 @@ body {
   color: #94151d;
 }
 /*==ТЕЛО Контакты==*/
+/*.body-contacs {
+  background-color: #c3c9c8;
+  margin: 20px 20px 0 10px;
+  width: 100%;
+  min-height: 100%;
+  border-radius: 20px;
+}
+.body-contacs__block{
+  margin: 40px;
+  background-color: #29609e;
+  border-radius: 20px;
+  color: #fff;
+}
+.body-contacs__data {
+  padding: 20px;
+  font-size: 30px;
+  word-spacing: 5px;
+  line-height: 50px;
+  text-align: center;
+}
+.body-contacs__phone {
+  background-color: #6da9ed;
+  margin: 0 auto;
+  width: 350px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 30px;
+  text-transform: uppercase;
+  box-shadow: 5px 5px 7px;
+}
+*/
 .contacs-block{
   padding: 40px;
   font-size: 25px;
@@ -204,44 +236,9 @@ body {
 .contacs-map{
   border: px solid #000;
 }
-/*Тело Каталога*/
-.body-shop{
-  background-color: #c3c9c8;
-  margin: 20px 20px 0 10px;
-  width: 100%;
-  min-height: 100%;
-  border-radius: 20px;
-}
-.body-shop__info{
-  padding: 20px;
-  font-size: 20px;
-  text-align: center;
-}
-.body-shop__info p{
-  text-align: center;
-  font-weight: 700;
-}
-.contacs-map{
-  border: px solid #000;
-}
+
 
 /*==ТЕЛО Каталога==*/
-.body-shop{
-  background-color: #c3c9c8;
-  margin: 20px 20px 0 10px;
-  width: 100%;
-  min-height: 100%;
-  border-radius: 20px;
-}
-.body-shop__info{
-  padding: 20px;
-  font-size: 20px;
-  text-align: center;
-}
-.body-shop__info p{
-  text-align: center;
-  font-weight: 700;
-}
 
 
 .body-shop__info span{
@@ -314,6 +311,17 @@ body {
   display: block;
   font-size: 20px;
   text-align: center;
+}
+
+.footer{
+  background-color: #626665;
+  width: 100%;
+  padding: 15px;
+  border-radius: 20px;
+  color: #becfcc;
+}
+.add a{
+  color: #13edc5;
 }
 @media(max-width: 438px){
   .sizes__box-flex{
