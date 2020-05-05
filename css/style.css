@@ -186,36 +186,39 @@ body {
   color: #94151d;
 }
 /*==ТЕЛО Контакты==*/
-.body-contacs {
+.contacs-block{
+  padding: 40px;
+  font-size: 25px;
+  text-align: center;
+}
+.contacs__data span{
+  display: block;
+  padding: 5px 0;
+}
+.contacs__data{
+  padding: 20px 0;
+}
+.phone {
+  border-bottom: 2px solid #000;
+}
+.body-shop{
   background-color: #c3c9c8;
   margin: 20px 20px 0 10px;
   width: 100%;
   min-height: 100%;
   border-radius: 20px;
 }
-.body-contacs__block{
-  margin: 40px;
-  background-color: #29609e;
-  border-radius: 20px;
-  color: #fff;
-}
-.body-contacs__data {
+.body-shop__info{
   padding: 20px;
-  font-size: 30px;
-  word-spacing: 5px;
-  line-height: 50px;
+  font-size: 20px;
   text-align: center;
 }
-.body-contacs__phone {
-  background-color: #6da9ed;
-  margin: 0 auto;
-  width: 350px;
+.body-shop__info p{
   text-align: center;
-  border-radius: 10px;
-  padding: 20px;
-  font-size: 30px;
-  text-transform: uppercase;
-  box-shadow: 5px 5px 7px;
+  font-weight: 700;
+}
+.contacs-map{
+  border: px solid #000;
 }
 
 /*==ТЕЛО Каталога==*/
